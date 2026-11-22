@@ -1,0 +1,426 @@
+[
+  {
+    "id": "P101",
+    "name": "微岚 Air Lite 蓝牙耳机",
+    "category": "耳机",
+    "price": 129,
+    "sales": 2860,
+    "rating": 97,
+    "stock": 26,
+    "tags": [
+      "蓝牙",
+      "轻便",
+      "通勤"
+    ],
+    "colors": [
+      "雾白",
+      "墨黑"
+    ]
+  },
+  {
+    "id": "P102",
+    "name": "北栖 Quiet 蓝牙降噪耳机",
+    "category": "耳机",
+    "price": 199,
+    "sales": 4180,
+    "rating": 98,
+    "stock": 0,
+    "tags": [
+      "蓝牙",
+      "降噪",
+      "通勤"
+    ],
+    "colors": [
+      "深灰",
+      "雾蓝"
+    ]
+  },
+  {
+    "id": "P103",
+    "name": "句点 Fit 蓝牙运动耳机",
+    "category": "耳机",
+    "price": 200,
+    "sales": 1520,
+    "rating": 96,
+    "stock": 15,
+    "tags": [
+      "蓝牙",
+      "运动",
+      "防泼溅"
+    ],
+    "colors": [
+      "墨黑",
+      "草绿"
+    ]
+  },
+  {
+    "id": "P104",
+    "name": "回声 Studio 蓝牙降噪耳机",
+    "category": "耳机",
+    "price": 239,
+    "sales": 3510,
+    "rating": 99,
+    "stock": 11,
+    "tags": [
+      "蓝牙",
+      "降噪",
+      "长续航"
+    ],
+    "colors": [
+      "石墨灰"
+    ]
+  },
+  {
+    "id": "P105",
+    "name": "素声 Line 有线耳机",
+    "category": "耳机",
+    "price": 69,
+    "sales": 1200,
+    "rating": 95,
+    "stock": 37,
+    "tags": [
+      "有线",
+      "麦克风"
+    ],
+    "colors": [
+      "银白",
+      "墨黑"
+    ]
+  },
+  {
+    "id": "P106",
+    "name": "弧光 Open 蓝牙开放式耳机",
+    "category": "耳机",
+    "price": 289,
+    "sales": 925,
+    "rating": 97,
+    "stock": 8,
+    "tags": [
+      "蓝牙",
+      "开放式",
+      "运动"
+    ],
+    "colors": [
+      "沙棕",
+      "墨黑"
+    ]
+  },
+  {
+    "id": "P201",
+    "name": "方格 K68 机械键盘",
+    "category": "键盘",
+    "price": 169,
+    "sales": 3620,
+    "rating": 98,
+    "stock": 21,
+    "tags": [
+      "机械",
+      "紧凑",
+      "有线"
+    ],
+    "colors": [
+      "灰蓝",
+      "奶白"
+    ]
+  },
+  {
+    "id": "P202",
+    "name": "云键 K84 无线键盘",
+    "category": "键盘",
+    "price": 249,
+    "sales": 2150,
+    "rating": 97,
+    "stock": 13,
+    "tags": [
+      "无线",
+      "机械",
+      "热插拔"
+    ],
+    "colors": [
+      "墨黑"
+    ]
+  },
+  {
+    "id": "P203",
+    "name": "薄页 Slim 蓝牙键盘",
+    "category": "键盘",
+    "price": 119,
+    "sales": 1890,
+    "rating": 96,
+    "stock": 27,
+    "tags": [
+      "蓝牙",
+      "静音",
+      "便携"
+    ],
+    "colors": [
+      "白色",
+      "浅灰"
+    ]
+  },
+  {
+    "id": "P204",
+    "name": "响木 K98 机械键盘",
+    "category": "键盘",
+    "price": 329,
+    "sales": 840,
+    "rating": 99,
+    "stock": 9,
+    "tags": [
+      "机械",
+      "背光",
+      "热插拔"
+    ],
+    "colors": [
+      "松绿"
+    ]
+  },
+  {
+    "id": "P301",
+    "name": "点游 M1 无线鼠标",
+    "category": "鼠标",
+    "price": 79,
+    "sales": 2930,
+    "rating": 96,
+    "stock": 54,
+    "tags": [
+      "无线",
+      "办公",
+      "轻便"
+    ],
+    "colors": [
+      "墨黑",
+      "银白"
+    ]
+  },
+  {
+    "id": "P302",
+    "name": "松果 Mini 蓝牙鼠标",
+    "category": "鼠标",
+    "price": 109,
+    "sales": 1250,
+    "rating": 97,
+    "stock": 18,
+    "tags": [
+      "蓝牙",
+      "便携",
+      "静音"
+    ],
+    "colors": [
+      "雾粉",
+      "雾白"
+    ]
+  },
+  {
+    "id": "P303",
+    "name": "疾风 X7 游戏鼠标",
+    "category": "鼠标",
+    "price": 179,
+    "sales": 1760,
+    "rating": 98,
+    "stock": 12,
+    "tags": [
+      "游戏",
+      "有线",
+      "轻量"
+    ],
+    "colors": [
+      "墨黑"
+    ]
+  },
+  {
+    "id": "P304",
+    "name": "栖手 Ergo 人体工学鼠标",
+    "category": "鼠标",
+    "price": 219,
+    "sales": 820,
+    "rating": 95,
+    "stock": 6,
+    "tags": [
+      "无线",
+      "人体工学",
+      "办公"
+    ],
+    "colors": [
+      "深灰"
+    ]
+  },
+  {
+    "id": "P401",
+    "name": "路野 15L 通勤背包",
+    "category": "背包",
+    "price": 149,
+    "sales": 2350,
+    "rating": 97,
+    "stock": 19,
+    "tags": [
+      "通勤",
+      "防泼溅",
+      "电脑隔层"
+    ],
+    "colors": [
+      "墨黑",
+      "雾蓝"
+    ]
+  },
+  {
+    "id": "P402",
+    "name": "见山 21L 户外背包",
+    "category": "背包",
+    "price": 229,
+    "sales": 1230,
+    "rating": 98,
+    "stock": 14,
+    "tags": [
+      "户外",
+      "防泼溅",
+      "大容量"
+    ],
+    "colors": [
+      "松绿",
+      "沙灰"
+    ]
+  },
+  {
+    "id": "P403",
+    "name": "拾叶 12L 帆布背包",
+    "category": "背包",
+    "price": 99,
+    "sales": 1520,
+    "rating": 96,
+    "stock": 31,
+    "tags": [
+      "帆布",
+      "轻便",
+      "通勤"
+    ],
+    "colors": [
+      "米白",
+      "深蓝"
+    ]
+  },
+  {
+    "id": "P404",
+    "name": "泊云 26L 旅行背包",
+    "category": "背包",
+    "price": 299,
+    "sales": 650,
+    "rating": 97,
+    "stock": 7,
+    "tags": [
+      "旅行",
+      "大容量",
+      "电脑隔层"
+    ],
+    "colors": [
+      "墨黑"
+    ]
+  },
+  {
+    "id": "P501",
+    "name": "一口 350ml 保温杯",
+    "category": "水杯",
+    "price": 69,
+    "sales": 3280,
+    "rating": 96,
+    "stock": 42,
+    "tags": [
+      "保温",
+      "便携",
+      "不锈钢"
+    ],
+    "colors": [
+      "雾白",
+      "草绿"
+    ]
+  },
+  {
+    "id": "P502",
+    "name": "浅湾 500ml 大容量保温杯",
+    "category": "水杯",
+    "price": 99,
+    "sales": 2140,
+    "rating": 98,
+    "stock": 18,
+    "tags": [
+      "保温",
+      "不锈钢",
+      "通勤"
+    ],
+    "colors": [
+      "墨黑",
+      "雾蓝"
+    ]
+  },
+  {
+    "id": "P503",
+    "name": "晴水 720ml 运动水杯",
+    "category": "水杯",
+    "price": 49,
+    "sales": 1550,
+    "rating": 95,
+    "stock": 55,
+    "tags": [
+      "运动",
+      "透明",
+      "大容量"
+    ],
+    "colors": [
+      "浅蓝",
+      "浅灰"
+    ]
+  },
+  {
+    "id": "P601",
+    "name": "满电 10000mAh 便携充电宝",
+    "category": "充电宝",
+    "price": 109,
+    "sales": 3120,
+    "rating": 97,
+    "stock": 27,
+    "tags": [
+      "便携",
+      "快充",
+      "USB-C"
+    ],
+    "colors": [
+      "雾白",
+      "墨黑"
+    ]
+  },
+  {
+    "id": "P602",
+    "name": "流光 20000mAh 快充充电宝",
+    "category": "充电宝",
+    "price": 189,
+    "sales": 1720,
+    "rating": 98,
+    "stock": 16,
+    "tags": [
+      "快充",
+      "大容量",
+      "USB-C"
+    ],
+    "colors": [
+      "墨黑"
+    ]
+  },
+  {
+    "id": "P603",
+    "name": "贴贴 5000mAh 磁吸充电宝",
+    "category": "充电宝",
+    "price": 149,
+    "sales": 1040,
+    "rating": 96,
+    "stock": 11,
+    "tags": [
+      "磁吸",
+      "便携",
+      "无线"
+    ],
+    "colors": [
+      "雾白",
+      "浅紫"
+    ]
+  }
+]

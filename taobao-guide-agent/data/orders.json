@@ -1,0 +1,59 @@
+[
+  {
+    "id": "TB1001",
+    "product_id": "P101",
+    "status": "运输中",
+    "tracking": [
+      {
+        "time": "11-18 10:06",
+        "detail": "模拟仓库已发货"
+      },
+      {
+        "time": "11-19 09:35",
+        "detail": "到达华东分拨中心"
+      }
+    ]
+  },
+  {
+    "id": "TB1002",
+    "product_id": "P201",
+    "status": "待发货",
+    "tracking": []
+  },
+  {
+    "id": "TB1003",
+    "product_id": "P401",
+    "status": "派送中",
+    "tracking": [
+      {
+        "time": "11-19 19:08",
+        "detail": "到达本地配送站"
+      },
+      {
+        "time": "11-20 08:20",
+        "detail": "已出站派送"
+      }
+    ]
+  },
+  {
+    "id": "TB1004",
+    "product_id": "P603",
+    "status": "已签收",
+    "tracking": [
+      {
+        "time": "11-20 07:30",
+        "detail": "已出站派送"
+      },
+      {
+        "time": "11-20 14:42",
+        "detail": "已签收"
+      }
+    ]
+  },
+  {
+    "id": "TB1005",
+    "product_id": "P303",
+    "status": "已取消",
+    "tracking": []
+  }
+]

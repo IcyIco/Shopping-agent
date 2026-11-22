@@ -1,0 +1,1 @@
+"""Local shopping guide."""

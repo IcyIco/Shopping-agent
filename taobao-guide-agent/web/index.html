@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>寻物导购</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css">
+  <script type="module" src="/static/chat.js"></script>
+</head>
+<body>
+  <aside class="sidebar" aria-label="导购导航">
+    <a class="brand" href="/" aria-label="寻物导购首页">
+      <span class="brand-icon" aria-hidden="true">寻</span>
+      <span class="brand-name">寻物导购</span>
+    </a>
+
+    <button id="new-chat" class="new-chat" type="button"><span aria-hidden="true">＋</span> 新对话</button>
+
+    <nav class="examples" aria-label="示例问题">
+      <p>试问一句</p>
+      <button type="button" data-message="有没有 200 元以内的蓝牙耳机？"><span aria-hidden="true">·</span> 200 元以内的蓝牙耳机</button>
+      <button type="button" data-message="找通勤背包，按销量排序"><span aria-hidden="true">·</span> 按销量找通勤背包</button>
+      <button type="button" data-message="买耳机有优惠吗？"><span aria-hidden="true">·</span> 买耳机有优惠吗？</button>
+      <button type="button" data-message="查订单 TB1001"><span aria-hidden="true">·</span> 查订单 TB1001</button>
+    </nav>
+
+    <div class="sidebar-footer">
+      <span class="data-indicator" aria-hidden="true"></span> 使用模拟商城数据
+    </div>
+  </aside>
+
+  <main class="workspace">
+    <header class="toolbar">
+      <div>
+        <p class="toolbar-title">购物对话</p>
+        <span class="toolbar-subtitle">商品、优惠与订单</span>
+      </div>
+      <div class="toolbar-actions">
+        <span class="mode" id="mode">正在连接</span>
+        <a href="/docs" target="_blank" rel="noopener">接口文档</a>
+      </div>
+    </header>
+
+    <div class="conversation" id="conversation" tabindex="0" aria-label="购物对话记录">
+      <section id="welcome" class="welcome">
+        <span class="welcome-mark" aria-hidden="true"><span class="search-icon"></span></span>
+        <h1>今天想找点什么？</h1>
+        <p>说说你想买的东西和预算，或者查查优惠和订单。</p>
+        <div class="starter-grid">
+          <button type="button" class="starter" data-message="有没有 200 元以内的蓝牙耳机？">
+            <span class="starter-icon" aria-hidden="true">¥</span>
+            <span><strong>按预算找商品</strong><small>200 元以内的蓝牙耳机</small></span>
+          </button>
+          <button type="button" class="starter" data-message="P102 的详情，库存和颜色怎么样？">
+            <span class="starter-icon" aria-hidden="true">详</span>
+            <span><strong>看商品详情</strong><small>查 P102 的库存和颜色</small></span>
+          </button>
+          <button type="button" class="starter" data-message="消费 170 元买耳机，有什么优惠券？">
+            <span class="starter-icon" aria-hidden="true">券</span>
+            <span><strong>查可用优惠</strong><small>买 170 元耳机能用什么券？</small></span>
+          </button>
+          <button type="button" class="starter" data-message="查订单 TB1001">
+            <span class="starter-icon" aria-hidden="true">单</span>
+            <span><strong>查物流进度</strong><small>订单 TB1001 到哪了？</small></span>
+          </button>
+        </div>
+      </section>
+
+      <div class="messages" id="messages" role="log" aria-label="消息" aria-live="polite"></div>
+    </div>
+
+    <section class="compose-section" aria-label="发送消息">
+      <form class="composer" id="composer">
+        <label class="visually-hidden" for="message">输入购物问题</label>
+        <textarea id="message" name="message" rows="1" maxlength="800" placeholder="输入你想找的商品、预算或订单号…" required></textarea>
+        <button id="send" type="submit">发送</button>
+      </form>
+      <p class="compose-hint" id="compose-hint">Enter 发送 · Shift + Enter 换行</p>
+    </section>
+  </main>
+</body>
+</html>
